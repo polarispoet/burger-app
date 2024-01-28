@@ -9,6 +9,8 @@ const initialState = {
   authRedirectPath: "/",
 };
 
+// Testing
+
 const authStart = (state, action) => {
   return updateObject(state, { error: null, loading: true });
 };
